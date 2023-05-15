@@ -4,8 +4,7 @@
   "description": "A sample plugin for Research Helper",
   "main": "main.js",
   "scripts": {
-    "dev": "node esbuild.config.mjs",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+    "dev": "node esbuild.config.mjs"
   },
   "author": "Hunt Feng",
   "license": "MIT",

@@ -3,5 +3,6 @@
   "name": "Research Helper Sample Plugin",
   "version": "1.0.0",
   "description": "A sample plugin for Research Helper",
-  "author": "Hunt Feng"
+  "author": "Hunt Feng",
+  "repo": "https://github.com/ResearchHelper/research-helper-sample-plugin"
 }
