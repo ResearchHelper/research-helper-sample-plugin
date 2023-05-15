@@ -1,0 +1,6 @@
+.DS_Store
+.thumbs.db
+.vscode
+node_modules
+
+main.js # this should be in release
