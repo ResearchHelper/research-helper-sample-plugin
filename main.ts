@@ -10,7 +10,7 @@ class MyPlugin {
   buttons: Button[] = [];
   views: View[] = [];
 
-  init() {
+  enable() {
     let button = {
       icon: "books",
       onClick: () => {
@@ -39,6 +39,10 @@ class MyPlugin {
     this.registerButton(button);
 
     this.registerLeftMenuView(view);
+  }
+
+  disable() {
+    console.log("good bye");
   }
 
   registerButton(btn: Button) {

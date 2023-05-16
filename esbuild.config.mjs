@@ -17,7 +17,7 @@ const context = await esbuild.context({
   entryPoints: ["main.ts"],
   bundle: true,
   external: ["electron", ...builtins],
-  format: "cjs",
+  format: "esm",
   target: "es2018",
   logLevel: "info",
   sourcemap: prod ? false : "inline",
