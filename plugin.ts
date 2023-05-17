@@ -54,7 +54,7 @@ export class Plugin {
   pageView: View;
   leftMenuView: View;
   pdfMenuView: View;
-
+  settingsPageView: View;
   controller: Controller;
 
   constructor(controller: Controller) {
@@ -71,6 +71,7 @@ export class Plugin {
     this.pageView = {} as View;
     this.leftMenuView = {} as View;
     this.pdfMenuView = {} as View;
+    this.settingsPageView = {} as View;
   }
 
   /**
@@ -142,7 +143,9 @@ export class Plugin {
   }
 
   /**
-   * Add settings page
+   * Register view to settings page
    */
-  addSettings(view: View) {}
+  registerSettingsPageView(view: View) {
+    this.settingsPageView = view;
+  }
 }
