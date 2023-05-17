@@ -1,8 +1,8 @@
 {
-  "id": "research-helper-sample-plugin",
-  "name": "Research Helper Sample Plugin",
+  "id": "simple-memo",
+  "name": "Simple Memo",
   "version": "1.0.0",
   "description": "A sample plugin for Research Helper",
   "author": "Hunt Feng",
-  "repo": "ResearchHelper/research-helper-sample-plugin"
+  "repo": "ResearchHelper/simple-memo"
 }
