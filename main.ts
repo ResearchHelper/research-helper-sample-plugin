@@ -1,4 +1,4 @@
-import { Plugin, Button, Page } from "research-helper";
+import { Plugin, Button, Page, SettingInput } from "research-helper";
 
 class SimpleMemo extends Plugin {
   memoPath: string = "";
@@ -18,6 +18,20 @@ class SimpleMemo extends Plugin {
       click: this.openMemo,
     } as Button;
     this.addRibbonBtn(button);
+
+    let settingInput = this.getSettingValue("path");
+    if (!settingInput)
+      settingInput = {
+        label: "path",
+        description: "Path of memo.md",
+        type: "input",
+        inputType: "text",
+        value: this.memoPath,
+      } as SettingInput;
+    else {
+      this.memoPath = settingInput.value as string;
+    }
+    this.addSetting(settingInput);
   }
 
   disable() {
