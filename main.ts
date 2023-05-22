@@ -39,4 +39,4 @@ class SimpleMemo extends Plugin {
   }
 }
 
-export default MyPlugin;
+export default SimpleMemo;
