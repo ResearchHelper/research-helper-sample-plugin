@@ -17,5 +17,8 @@
     "esbuild": "0.17.3",
     "tslib": "2.4.0",
     "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "research-helper": "^1.0.3"
   }
 }

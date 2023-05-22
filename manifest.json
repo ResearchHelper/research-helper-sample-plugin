@@ -2,7 +2,7 @@
   "id": "simple-memo",
   "name": "Simple Memo",
   "version": "1.0.0",
-  "description": "A sample plugin for Research Helper",
+  "description": "A plugin for Research Helper to take memo.",
   "author": "Hunt Feng",
   "repo": "ResearchHelper/simple-memo"
 }
